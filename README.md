@@ -16,4 +16,4 @@ Download: [please click this link](https://github.com/nomahi/glmmrr/raw/main/glm
 
 Manual: [please click this link](https://github.com/nomahi/glmmrr/raw/main/glmmrr_1.1-1.pdf)
 
-Example code: [please click this link](https://github.com/nomahi/glmmrr/raw/main/examplecode.r)
+Example code: [please click this link](https://github.com/nomahi/glmmrr/blob/main/Examlpecode.r)
