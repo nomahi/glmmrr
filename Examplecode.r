@@ -1,5 +1,5 @@
 # "Logistic mixed-effects model analysis with pseudo-observations for estimating risk ratios in clustered binary data analysis"
-#  by Hisashi Noma
+#  by Hisashi Noma and Masahiko Gosho
 
 #  R example code for implementing the modified logistic mixed-effects model analysis
 
