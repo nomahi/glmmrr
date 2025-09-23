@@ -12,9 +12,9 @@ Logistic mixed-effects models are widely used as multilevel statistical models f
 
 Please download "glmmrr_2.1-1.tar.gz" and install it by R menu: "packages" -> "Install package(s) from local files...".
 
-Download: [please click this link](https://github.com/nomahi/glmmrr/raw/main/glmmrr_1.1-1.tar.gz)
+Download: [please click this link](https://github.com/nomahi/glmmrr/raw/main/glmmrr_2.1-1.tar.gz)
 
-Manual: [please click this link](https://github.com/nomahi/glmmrr/raw/main/glmmrr_1.1-1.pdf)
+Manual: [please click this link](https://github.com/nomahi/glmmrr/raw/main/glmmrr_2.1-1.pdf)
 
 
 
@@ -28,7 +28,7 @@ Manual: [please click this link](https://github.com/nomahi/glmmrr/raw/main/glmmr
 ###
 
 # Download the R package file from the following URL:
-# https://github.com/nomahi/glmmrr/raw/main/glmmrr_1.1-1.tar.gz
+# https://github.com/nomahi/glmmrr/raw/main/glmmrr_2.1-1.tar.gz
 
 # Then, install the package (tar.gz format) by R menu: "packages" -> "Install package(s) from local files...".
 
@@ -131,4 +131,5 @@ stopCluster(cl)
 
 scoef(gmm2, eform=TRUE)			# Risk-ratio estimates; 95%CIs and P-values are incorrect (based on the naive model variances)
 sboot(R1,eform=TRUE)			# 95%CIs and P-values of risk-ratios by bootstrap
+
 
