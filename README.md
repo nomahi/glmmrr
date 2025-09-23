@@ -4,7 +4,7 @@
 
 ## Logistic mixed-effects model analysis with pseudo-observations for estimating risk ratios in clustered binary data analysis
 
-Logistic mixed-effects models are widely used as multilevel statistical models for analyzing clustered binary outcome data (e.g., longitudinal studies, cluster-randomized trials, and multi-center clinical trials). However, the resulting odds ratio can only be interpreted as an approximation of the risk ratio for rare events, and cannot be directly used as an effect measure. To address this limitation, modified Poisson regression and its extension to GEE methodology have been widely applied in recent clinical and epidemiological research. Nonetheless, these estimating-equation–based semiparametric methods cannot be readily extended to mixed-effects models. Noma and Gosho (2025) <doi:10.1101/2025.09.18.25336125> proposed a new approach that yields consistent risk ratio estimators within a multilevel framework by incorporating pseudo-observations into logistic mixed-effects models. A key advantage of this method is that it can be implemented with standard GLMM software simply by modifying the dataset. This package provides computational tools to perform risk ratio estimation in a multilevel modeling framework using this novel approach.
+Logistic mixed-effects models are widely used as multilevel statistical models for analyzing clustered binary outcome data (e.g., longitudinal studies, cluster-randomized trials, and multi-center clinical trials). However, the resulting odds ratio can only be interpreted as an approximation of the risk ratio for rare events, and cannot be directly used as an effect measure. To address this limitation, modified Poisson regression and its extension to GEE methodology have been widely applied in recent clinical and epidemiological research. Nonetheless, these estimating-equation–based semiparametric methods cannot be readily extended to mixed-effects models. Noma and Gosho (2025, https://doi.org/10.1002/sim.70280) proposed a new approach that yields consistent risk ratio estimators within a multilevel framework by incorporating pseudo-observations into logistic mixed-effects models. A key advantage of this method is that it can be implemented with standard GLMM software simply by modifying the dataset. This package provides computational tools to perform risk ratio estimation in a multilevel modeling framework using this novel approach.
 
 
 
@@ -131,3 +131,4 @@ stopCluster(cl)
 
 scoef(gmm2, eform=TRUE)			# Risk-ratio estimates; 95%CIs and P-values are incorrect (based on the naive model variances)
 sboot(R1,eform=TRUE)			# 95%CIs and P-values of risk-ratios by bootstrap
+
