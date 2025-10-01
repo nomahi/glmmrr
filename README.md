@@ -18,6 +18,9 @@ Manual: [please click this link](https://github.com/nomahi/glmmrr/raw/main/glmmr
 
 
 
+
+## Example code
+
 ```r
 
 #  R example code for implementing the modified logistic mixed-effects model analysis
@@ -131,5 +134,6 @@ stopCluster(cl)
 
 scoef(gmm2, eform=TRUE)			# Risk-ratio estimates; 95%CIs and P-values are incorrect (based on the naive model variances)
 sboot(R1,eform=TRUE)			# 95%CIs and P-values of risk-ratios by bootstrap
+
 
 
